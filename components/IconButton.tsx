@@ -8,6 +8,8 @@ const IconButton = ({ icon: Icon, label }: Props) => {
 		<button className='flex items-center space-x-2 hover:text-white'>
 			<Icon className='icon' />
 			<span>{label}</span>
+			<h1>aaaa</h1>
+			<h2>4444</h2>
 		</button>
 	)
 }
