@@ -28,7 +28,7 @@ const Login = ({ providers }: Props) => {
 					signIn(providerId, { callbackUrl: '/' })
 				}}
 			>
-				Login with 111 {providerName}
+				Login with {providerName}
 			</button>
 		</div>
 	)
